@@ -1,0 +1,8 @@
+{
+	"name": "cube-cloudfoundry",
+	"version": "0.1.0",
+	"description": "Cube on Cloud Foundry",
+	"keywords": ["cube", "cloud foundry"],
+	"main": "./server",
+	"dependencies": {"cube": ""}
+}

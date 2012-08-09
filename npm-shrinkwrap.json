@@ -1,0 +1,39 @@
+{
+  "name": "click-cube",
+  "version": "0.0.1",
+  "dependencies": {
+    "cube": {
+      "version": "0.2.3",
+      "dependencies": {
+        "mongodb": {
+          "version": "1.0.1",
+          "dependencies": {
+            "bson": {
+              "version": "0.0.5"
+            }
+          }
+        },
+        "node-static": {
+          "version": "0.5.9"
+        },
+        "pegjs": {
+          "version": "0.6.2"
+        },
+        "vows": {
+          "version": "0.5.11",
+          "dependencies": {
+            "eyes": {
+              "version": "0.1.7"
+            }
+          }
+        },
+        "websocket": {
+          "version": "1.0.3"
+        },
+        "websocket-server": {
+          "version": "1.4.04"
+        }
+      }
+    }
+  }
+}
