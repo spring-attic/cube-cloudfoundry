@@ -4,5 +4,5 @@
 	"description": "Cube on Cloud Foundry",
 	"keywords": ["cube", "cloud foundry"],
 	"main": "./server",
-	"dependencies": {"cube": ""}
+	"dependencies": {"cube": "git+https://github.com/five-eleven/cube.git"}
 }

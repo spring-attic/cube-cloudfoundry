@@ -1,9 +1,9 @@
 {
-  "name": "click-cube",
-  "version": "0.0.1",
+  "name": "cube-cloudfoundry",
+  "version": "0.1.0",
   "dependencies": {
     "cube": {
-      "version": "0.2.3",
+      "version": "git+https://github.com/five-eleven/cube.git",
       "dependencies": {
         "mongodb": {
           "version": "1.0.1",
