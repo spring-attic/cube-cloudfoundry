@@ -2,7 +2,8 @@ var cube, service, options, server;
 
 cube = require('cube');
 
-service = JSON.parse(process.env.VCAP_SERVICES)['mongodb-1.8'][0];
+service = JSON.parse(process.env.VCAP_SERVICES);
+service = (service['mongodb-1.8'] || service['mongodb-2.0'])[0];
 options = {
 	'mongo-host': service.credentials.hostname,
 	'mongo-port': service.credentials.port,
