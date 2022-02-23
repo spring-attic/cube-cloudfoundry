@@ -1,3 +1,5 @@
+# cube-cloudfoundry is no longer actively maintained by VMware, Inc.
+
 Cube on Cloud Foundry
 =====================
 
